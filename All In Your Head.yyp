@@ -39,6 +39,14 @@
             }
         },
         {
+            "Key": "1aa28d66-30c9-45ca-9e23-23cba938735e",
+            "Value": {
+                "id": "92bc01ad-aac5-4b67-9ff3-a8931e36e197",
+                "resourcePath": "sprites\\obj_player\\obj_player.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "2245bd30-3789-45a7-84fc-d102a9825b6e",
             "Value": {
                 "id": "b6c4b204-2c22-4a76-9c4e-5bf3120ea2bb",
@@ -114,7 +122,7 @@
             "Key": "7f224939-0f6e-4496-a5d6-abf9c59b2d8b",
             "Value": {
                 "id": "6baba58f-9d24-4836-877b-107c13823a92",
-                "resourcePath": "scripts\\script0\\script0.yy",
+                "resourcePath": "scripts\\scr_input\\scr_input.yy",
                 "resourceType": "GMScript"
             }
         },
@@ -132,6 +140,14 @@
                 "id": "e58d6efc-848e-4f18-91cc-fb42fc973000",
                 "resourcePath": "views\\89d51547-4af4-4682-bd09-2badcab62ea4.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "91fd66ff-6067-4a49-aa19-1e45047f3250",
+            "Value": {
+                "id": "f167573d-08e8-4ea4-829a-8e63a82bbeb0",
+                "resourcePath": "scripts\\scr_movement\\scr_movement.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -181,10 +197,19 @@
                 "resourcePath": "views\\e299b9ba-84a4-4002-a9ca-75260d169b0d.yy",
                 "resourceType": "GMFolder"
             }
+        },
+        {
+            "Key": "e64de8a8-4e56-4893-a2fe-e0479a2ad5c4",
+            "Value": {
+                "id": "14cd79e6-3649-422a-be0c-f58b7700513f",
+                "resourcePath": "objects\\object0\\object0.yy",
+                "resourceType": "GMObject"
+            }
         }
     ],
     "script_order": [
-        "7f224939-0f6e-4496-a5d6-abf9c59b2d8b"
+        "7f224939-0f6e-4496-a5d6-abf9c59b2d8b",
+        "91fd66ff-6067-4a49-aa19-1e45047f3250"
     ],
     "tutorial": ""
 }
