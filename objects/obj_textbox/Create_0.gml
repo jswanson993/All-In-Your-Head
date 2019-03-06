@@ -25,7 +25,7 @@ choice_col			= c_yellow;
 select_col			= c_orange;
 name_col			= c_orange;
 
-name_font			= fnt_dialogue;
+name_font			= fnt_dialog;
 
 priority_snd_effect = 5;
 open_mouth_frame	= 1;	//You only need to change this if you are using animated sprites
@@ -89,7 +89,7 @@ emotion			= 0;
 
 portrait		= 1;
 voice			= 1;
-font			= 1;
+font			= fnt_dialog;
 
 charSize		= 1;
 stringHeight	= 1;
