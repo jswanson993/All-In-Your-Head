@@ -2,7 +2,7 @@
 {
     "name": "rm_dialoguesystem_demo",
     "id": "54d54171-5c16-43e4-814b-60c3312acae6",
-    "creationCodeFile": "",
+    "creationCodeFile": "RoomCreationCode.gml",
     "inheritCode": false,
     "inheritCreationOrder": false,
     "inheritLayers": false,
