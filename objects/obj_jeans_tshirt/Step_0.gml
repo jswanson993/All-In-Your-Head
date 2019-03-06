@@ -3,4 +3,4 @@
 scr_input()
 p_index = 0
 p_index = scr_collision()
-scr_change_apprearence(p_index, spr_jeans_tshirt)
+scr_change_apprearence(p_index, shirt2)

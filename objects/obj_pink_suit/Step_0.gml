@@ -5,4 +5,4 @@ p_index = 0
 //check to see if the player is on sprite
 p_index = scr_collision()
 //call script to choose clothing
-scr_change_apprearence(p_index, spr_pink_suit)
+scr_change_apprearence(p_index, shirt1)
