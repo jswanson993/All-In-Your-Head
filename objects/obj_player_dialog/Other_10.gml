@@ -1,5 +1,7 @@
 /// @description Insert description here
 // You can write your code in this editor
+reset_dialogue_defaults();
+
 switch(choice_variable){
 	case -1:
 	#region First Dialogue
