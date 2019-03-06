@@ -127,6 +127,14 @@
             }
         },
         {
+            "Key": "20fb3d1d-0533-4596-970a-43e0f0bcf50f",
+            "Value": {
+                "id": "5b0bf9d9-20b7-4b03-8c48-ca6349b5fd0a",
+                "resourcePath": "sprites\\spr_dudeIdleLeft\\spr_dudeIdleLeft.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "2245bd30-3789-45a7-84fc-d102a9825b6e",
             "Value": {
                 "id": "b6c4b204-2c22-4a76-9c4e-5bf3120ea2bb",
@@ -300,6 +308,14 @@
                 "id": "c349b7d9-cb44-4e43-b314-0eb73cbf5ef1",
                 "resourcePath": "scripts\\change_variable\\change_variable.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "5990c288-0e3b-4514-b4ec-1ec575bba626",
+            "Value": {
+                "id": "28c55137-7921-43d3-8c5d-0d540e1f8864",
+                "resourcePath": "sprites\\spr_dudeWalkRight\\spr_dudeWalkRight.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -559,6 +575,14 @@
             }
         },
         {
+            "Key": "aa8c118f-b69c-4fc2-9a3e-17f9e66608f0",
+            "Value": {
+                "id": "f73f80e7-c835-4ce9-bc88-bccb408f8806",
+                "resourcePath": "sprites\\spr_dudeIdleRight\\spr_dudeIdleRight.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "abdbdd7d-27fb-4917-9f5f-2ee8fb0b5975",
             "Value": {
                 "id": "0f71ea8e-00c7-410d-89c5-009a66f6bf11",
@@ -636,6 +660,14 @@
                 "id": "846ee84c-5018-499b-91db-65584f6a7e81",
                 "resourcePath": "views\\bea924d3-5163-4b60-b5df-1bd1dc5d4db0.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "cb6ddebd-b9a5-49e8-aacf-e8d320eec0d5",
+            "Value": {
+                "id": "d50d7e05-d08b-4871-aae0-ea2fcabff96b",
+                "resourcePath": "sprites\\spr_dudeWalkLeft\\spr_dudeWalkLeft.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
