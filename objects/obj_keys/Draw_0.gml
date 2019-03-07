@@ -1,12 +1,12 @@
 /// @description Insert description here
 // You can write your code in this editor
 if(selected){
-	object_set_sprite(obj_keys, keyhighlight)
+	sprite_index = keyhighlight
 	draw_self()
-	y = abs(10 - basey)
-	draw_text(basex, basey, "Take Car")
+	y = abs(20 - basey)
+	draw_text(basex + 10, basey + 10, "Take Car")
 }else{
-	object_set_sprite(self, key)
+	sprite_index = key
 	draw_self()
 	y = basey
 }
