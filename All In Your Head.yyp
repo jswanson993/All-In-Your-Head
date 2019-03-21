@@ -233,7 +233,7 @@
         {
             "Key": "45a7ab9f-ea4d-40f4-ad15-fe22ad1727f0",
             "Value": {
-                "id": "6b855795-fcff-4906-a3ab-80d87019c30a",
+                "id": "b5692ab8-a966-4bca-b158-8e7df84b419e",
                 "resourcePath": "fonts\\fnt_dialogue\\fnt_dialogue.yy",
                 "resourceType": "GMFont"
             }
@@ -380,14 +380,6 @@
                 "id": "1dd1488a-f1f9-411d-a4a3-8daed4da5ad8",
                 "resourcePath": "sprites\\citystreet\\citystreet.yy",
                 "resourceType": "GMSprite"
-            }
-        },
-        {
-            "Key": "61e9535d-8ac7-4d88-97a9-e66b7b3dfe97",
-            "Value": {
-                "id": "9f120e56-2872-4a82-ab11-58549ea4501d",
-                "resourcePath": "views\\61e9535d-8ac7-4d88-97a9-e66b7b3dfe97.yy",
-                "resourceType": "GMFolder"
             }
         },
         {
@@ -553,7 +545,7 @@
         {
             "Key": "9acdd8aa-8f80-40b6-bdf2-ef07cef7b45f",
             "Value": {
-                "id": "301c69f6-5967-49cd-8e0c-1a5026dbca86",
+                "id": "6f44732b-ca3a-4150-aa20-00518d6cb0cf",
                 "resourcePath": "fonts\\fnt_debug\\fnt_debug.yy",
                 "resourceType": "GMFont"
             }
@@ -659,6 +651,14 @@
             "Value": {
                 "id": "846ee84c-5018-499b-91db-65584f6a7e81",
                 "resourcePath": "views\\bea924d3-5163-4b60-b5df-1bd1dc5d4db0.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "cadc255c-402e-493d-9f44-9dfad3d3d735",
+            "Value": {
+                "id": "3d24bd2f-0825-4635-a001-7294a0ae175e",
+                "resourcePath": "views\\cadc255c-402e-493d-9f44-9dfad3d3d735.yy",
                 "resourceType": "GMFolder"
             }
         },

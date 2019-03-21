@@ -161,7 +161,6 @@ else {
 	repeat(charCount){
 		//Get current letter
 		letter = string_char_at(text_NE, cc);
-	
 		var ec2 = effects_c*2;
 		if(effects_c < effects_al and effects_p[ec2] == cc){ 
 			effects_c++; 
@@ -185,7 +184,7 @@ else {
 		
 		switch(effect){
 			case 0:	//normal
-				draw_text_color(xx + (cx*charSize), yy+(cy*stringHeight), letter, col, col, col, col, 1);
+				draw_text_color(xx +(cx*charSize), yy+(cy*stringHeight), letter, col, col, col, col, 1);
 				break;
 			
 			case 1:	//shakey

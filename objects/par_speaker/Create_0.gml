@@ -1,4 +1,5 @@
-
+alarm[0] = room_speed * 1
+start = false
 //-----------Customise (FOR USER)
 playerobject = obj_player_dialog;
 interact_key = vk_enter;
@@ -6,7 +7,7 @@ detection_radius = 32;
 
 myVoice			= -1;
 myPortrait		= -1;
-myFont			= fnt_dialogue;
+myFont			= fnt_dialog;
 myName			= "None";
 
 myPortraitTalk		= -1;
