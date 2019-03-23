@@ -4,3 +4,4 @@
 //room_height = display_get_height()
 //window_set_size(display_get_width(), display_get_height())
 alarm0Set = false
+alarm1Set = false
