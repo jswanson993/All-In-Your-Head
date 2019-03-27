@@ -311,14 +311,6 @@
             }
         },
         {
-            "Key": "5990c288-0e3b-4514-b4ec-1ec575bba626",
-            "Value": {
-                "id": "28c55137-7921-43d3-8c5d-0d540e1f8864",
-                "resourcePath": "sprites\\spr_dudeWalkRight\\spr_dudeWalkRight.yy",
-                "resourceType": "GMSprite"
-            }
-        },
-        {
             "Key": "5a4b58c0-c836-4d02-9101-430423e9907a",
             "Value": {
                 "id": "025368c2-ca87-4714-bb4e-0d1f7a57cde5",
@@ -540,6 +532,14 @@
                 "id": "8761a18a-7ba2-4591-8ba1-5fcc8d592140",
                 "resourcePath": "views\\97062ea6-4ae4-4c76-b872-346846eda059.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "97ae20eb-1051-4e89-b0f8-790ce40c6c79",
+            "Value": {
+                "id": "85367fe0-d9e1-490d-a9a3-988371c2265d",
+                "resourcePath": "sprites\\train_girls\\train_girls.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
