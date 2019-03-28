@@ -183,14 +183,6 @@
             }
         },
         {
-            "Key": "37ebcc86-dac5-44c4-b5ee-59f261c7515a",
-            "Value": {
-                "id": "970ae8e2-29c7-4628-891e-3ea705a36bae",
-                "resourcePath": "sprites\\office_room\\office_room.yy",
-                "resourceType": "GMSprite"
-            }
-        },
-        {
             "Key": "3b84574c-3733-4dfe-9a13-9ccd4fa5f322",
             "Value": {
                 "id": "f745932a-4b60-454e-b363-4cb18e4ee9a0",
@@ -547,6 +539,14 @@
             "Value": {
                 "id": "9fb4704f-c2cf-4df6-9fec-483c6134b296",
                 "resourcePath": "sprites\\spr_portrait_examplechar_idle\\spr_portrait_examplechar_idle.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "98161fea-eca3-4b2c-b383-49da50c7403c",
+            "Value": {
+                "id": "adafbd60-a4f3-4302-bfc8-c7d975d71fa0",
+                "resourcePath": "sprites\\office_room\\office_room.yy",
                 "resourceType": "GMSprite"
             }
         },
