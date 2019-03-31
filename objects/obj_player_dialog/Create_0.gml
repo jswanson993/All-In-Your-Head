@@ -1,4 +1,6 @@
 /// @description Insert description here
 // You can write your code in this editor
-event_inherited()
-choice_variable = -1
+responses = obj_game_manager.playerResp;
+line = 0;
+res = obj_speech_bubble.respNo
+selectedText = responses[obj_game_manager.roomNo,line]

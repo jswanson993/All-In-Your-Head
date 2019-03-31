@@ -69,7 +69,7 @@ if(type[page] == 1){
 else {
 	//Detect pauses, play voice sound, increment our "typewriter"
 	//Only need to do this if we haven't typed everything out AND we aren't already paused
-	
+
 	if(charCount < str_len and !pause){
 		
 		#region Increment character counter (charCount) every frame, used for "typewriter"

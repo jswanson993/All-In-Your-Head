@@ -15,7 +15,7 @@ if(type[page] == 0){
 			switch(nextline[page]){
 				case -1: instance_destroy();	exit;
 				case  0: page += 1;				break;
-				default: page = nextline[page];
+				default: page = nextline[page]; show_debug_message(nextline[page]);
 			}
 			event_perform(ev_alarm, 0);
 			

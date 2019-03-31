@@ -51,6 +51,7 @@ switch(arg_count-1){
 	case 4: a = arg[4];	if(array_length_1d(a) != text_len){ a[text_len] = 0; } for(i = 0; i < text_len; i++){ if(a[i] != 0) _type[i] = a[i]; }
 	case 3: a = arg[3];	if(array_length_1d(a) != text_len){ a[text_len] = 0; } for(i = 0; i < text_len; i++){ if(a[i] != 0) _speed[i] = a[i]; }
 	case 2: a = arg[2];	if(array_length_1d(a) != text_len){ a[text_len] = 0; } for(i = 0; i < text_len; i++){ if(a[i] != 0) _effects[i] = a[i]; }
+	default: show_debug_message(a[i])
 }
 
 //Change the Textbox Values
