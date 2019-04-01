@@ -41,7 +41,7 @@ roomNo = 1
 		
 		j++
 		userResp[j, 0]		= "Oh, well I would prefer my own name" 
-		userResp[j, 1]		="\"Charming\" like the prince?, Im not sure that would be very appropriate"
+		userResp[j, 1]		="\"Charming\" like the prince? Im not sure that would be very appropriate"
 		userResp[j, 2]		= "Okay...?"
 		ds_list_add(rl, 7)
 		//line 7
@@ -54,7 +54,7 @@ roomNo = 1
 		
 		//line 9
 		i++
-		dialogue[i]		= "I'd like to know if\n you and youre\n wife are planning\n on having children soon"
+		dialogue[i]		= "I'd like to know if\n you and your\n wife are planning\n on having children soon"
 		
 		j++
 		userResp[j, 0]		= "What? No. I mean I'm not married. So no"
@@ -64,7 +64,7 @@ roomNo = 1
 		
 		//line 10
 		i++
-		dialogue[i]		= "Oh?, Well that's\n good to know."
+		dialogue[i]		= "Oh? Well that's\n good to know."
 		
 		//line 11
 		i++
@@ -74,7 +74,7 @@ roomNo = 1
 		dialogue[i]	= "At your age I'd feel some\n pressure to settle,\n don't you?"
 		
 		j++
-		userResp[j, 0]		= "I'm not interested in the confines of marriage" 
+		userResp[j, 0]		= "I'm not interested in getting married" 
 		userResp[j, 1]		= "Maybe someday, if I meet the right person" 
 		userResp[j, 2]      = "Are YOU married"
 		ds_list_add(rl, 13)

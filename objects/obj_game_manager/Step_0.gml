@@ -9,10 +9,10 @@ switch(room){
 		break	
 	case(Room3):
 		if(!alarm0Set)
-			alarm[0] = room_speed * 1
+			alarm[0] = room_speed * 30
 		alarm0Set = true
-		//if(!alarm1Set)
-		//	alarm[1] = room_speed * 3
-		//alarm1Set = true
+		if(!alarm1Set)
+			alarm[1] = room_speed * 3
+		alarm1Set = true
 		break
 }
