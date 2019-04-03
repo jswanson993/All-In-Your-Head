@@ -16,6 +16,7 @@ if(keyboard_check_released(vk_enter)){
 	}
 	if(ind >= array_length_1d(dialogue)){
 		instance_destroy()
+		obj_game_manager.nextRoom = true;
 		exit
 	}
 	event_user(0)

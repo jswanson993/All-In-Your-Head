@@ -15,4 +15,31 @@ switch(room){
 		//	alarm[1] = room_speed * 3
 		//alarm1Set = true
 		break
+		
+	case(Room6):
+		if(nextRoom = true){
+			room_goto_next();	
+			nextRoom = false
+		}
+		break
+	case(Room7):
+		if(nextRoom = true){
+			room_goto_next();
+			nextRoom = false;
+		}
+		break;
+		
+	case(Room8):
+		if(nextRoom = true){
+			room_goto_next();
+			nextRoom = false;
+		}
+		break;
+		
+	case(Room9):
+		if(nextRoom = true){
+			room_goto_next();
+			nextRoom = false;
+		}
+		break;
 }

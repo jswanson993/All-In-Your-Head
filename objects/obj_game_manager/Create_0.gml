@@ -9,3 +9,4 @@ roomDialogue = []
 playerResp = 0
 responseLines = ds_list_create()
 roomNo = 0
+nextRoom = false;
