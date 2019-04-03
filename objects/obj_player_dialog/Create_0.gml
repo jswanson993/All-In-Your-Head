@@ -3,4 +3,5 @@
 responses = obj_game_manager.playerResp;
 line = 0;
 res = obj_speech_bubble.respNo
-selectedText = responses[obj_game_manager.roomNo,line]
+selectedText = responses[res,line]
+show_debug_message(selectedText);
