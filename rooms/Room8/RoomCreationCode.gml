@@ -3,6 +3,8 @@ var userResp = [[]]
 var rl = ds_list_create()
 var i = 0
 var j = 0
+var bubbleX = 672
+var bubbleY = 256
 roomNo = 1
 		dialogue[i]		= "Oh hey there!" 
 		
@@ -13,7 +15,7 @@ roomNo = 1
 		
 		//line 1
 		ds_list_add(rl, 2)
-		userResp[j, 0]		= "Hiya. Yeah, I’m new. Hey wait, is that a nose ring? Did they not ask you to take yours out too?"
+		userResp[j, 0]		= "Hiya. Yeah, I’m new. Hey wait, is that a nose ring?\n Did they not ask you to take yours out too?"
 ;
 		
 		//line2
@@ -22,11 +24,11 @@ roomNo = 1
 		
 		//line 3
 		i++
-		dialogue[i] =  "I rock this look and the\n clients eat up the “edgy chick” look."
+		dialogue[i] =  "I rock this look and the\n clients eat up the\n “edgy chick” look."
 		
 		//line 4
 		i++
-		dialogue[i] = "Anyway, gotta get some work done.\n Nice meeting you. .";
+		dialogue[i] = "Anyway, gotta get some\n work done. Nice\n meeting you. .";
 		
 		//line 2
 		j++;
@@ -40,4 +42,7 @@ roomNo = 1
 obj_game_manager.roomDialogue = dialogue;
 obj_game_manager.playerResp = userResp;
 obj_game_manager.responseLines = rl
-instance_create_layer(608, 28, "Instances", obj_speech_bubble)
+b = instance_create_layer(608, 192, "Instances", obj_speech_bubble)
+with(b){
+	image_yscale = -1	
+}
