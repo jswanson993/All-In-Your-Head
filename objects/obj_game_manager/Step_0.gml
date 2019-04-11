@@ -38,8 +38,10 @@ switch(room){
 		
 	case(Room9):
 		if(init == true){
-		instg1 = create_instance_layer(185, 506, "Girls", obj_girl)
+		instg1 = instance_create_layer(185, 206, "Instances", obj_girl)
+		
 		with(instg1){
+		//show_debug_message(speech)
 		sprite_index = spr_pink_suit
 		image_speed = 0;
 		image_index = 0;
@@ -48,7 +50,7 @@ switch(room){
 		}
 
 
-		instg2 = create_instance_layer(300, 506, "Girls", obj_girl)
+		instg2 = instance_create_layer(300, 206, "Girls", obj_girl)
 		with(instg2){
 			sprite_index = spr_pink_suit
 			image_speed = 0;
@@ -56,13 +58,54 @@ switch(room){
 			speech = "Did you see that nose ring\n on the first day?\n What guy pierces his nose?"
 		}
 
-		instg3 = create_instance_layer(450, 506, "Girls", obj_girl)
+		instg3 = instance_create_layer(450, 206, "Girls", obj_girl)
 		with(instg3){
 			sprite_index = spr_pink_suit
 			image_speed = 0;
 			image_index = 2;
 			speech = "Must be gay"
 		}
+		
+		instg4 = instance_create_layer(600, 206, "Girls", obj_girl)
+		with(instg4){
+			sprite_index = spr_pink_suit
+			image_speed = 0;
+			image_index = 2;
+			speech = "Do you think he has a girlfriend?"
+		}
+		
+		instg5 = instance_create_layer(650, 206, "Girls", obj_girl)
+		with(instg5){
+			sprite_index = spr_pink_suit
+			image_speed = 0;
+			image_index = 2;
+			speech = "Does it matter? No ring, no problem."
+		}
+		
+		instg6 = instance_create_layer(750, 206, "Girls", obj_girl)
+		with(instg6){
+			sprite_index = spr_pink_suit
+			image_speed = 0;
+			image_index = 2;
+			speech = "Does it matter? No ring, no problem."
+		}
+		
+		instg7 = instance_create_layer(850, 206, "Girls", obj_girl)
+		with(instg7){
+			sprite_index = spr_pink_suit
+			image_speed = 0;
+			image_index = 2;
+			speech = "All I’m saying is, a man in a uniform has a better chance."
+		}
+		
+		instg8 = instance_create_layer(850, 206, "Girls", obj_girl)
+		with(instg8){
+			sprite_index = spr_pink_suit
+			image_speed = 0;
+			image_index = 2;
+			speech = "All I’m saying is, a man in a uniform has a better chance."
+		}
+		
 			init = false;
 		}
 		if(nextRoom = true){
