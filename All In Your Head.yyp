@@ -287,6 +287,14 @@
             }
         },
         {
+            "Key": "43452cab-2287-4c6a-9383-d916914a2f58",
+            "Value": {
+                "id": "ac7c4ec0-e7ae-40c0-a260-29b2c17cde79",
+                "resourcePath": "sprites\\spr_dudeIdle_Left\\spr_dudeIdle_Left.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "44c490ff-ea54-40d7-a1be-1c36583d1fd7",
             "Value": {
                 "id": "25d7221e-f683-4158-a231-fb19da141ec0",
