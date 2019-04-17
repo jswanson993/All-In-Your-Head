@@ -31,6 +31,14 @@
     },
     "resources": [
         {
+            "Key": "012ac0c6-5142-4002-b93e-97189d80d4c8",
+            "Value": {
+                "id": "3dc6d1cf-df53-4fac-a26c-53b1636d883b",
+                "resourcePath": "sprites\\spr_dudeIdle_shirtless\\spr_dudeIdle_shirtless.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "02248ee0-73df-41f2-98fe-061e87317050",
             "Value": {
                 "id": "be8a29f2-57c5-4c65-af11-9446fd490aa0",
@@ -795,6 +803,14 @@
             "Value": {
                 "id": "ab645a60-cab2-42ac-b178-3b377f33c1b3",
                 "resourcePath": "sprites\\train\\train.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "ac8ba6e1-b7d2-4417-afa3-4a8a20c1e853",
+            "Value": {
+                "id": "976973b3-bbf6-4414-a5ff-375426d0455d",
+                "resourcePath": "sprites\\spr_dudeWalk_shirtless\\spr_dudeWalk_shirtless.yy",
                 "resourceType": "GMSprite"
             }
         },

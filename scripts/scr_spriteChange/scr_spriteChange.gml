@@ -1,7 +1,6 @@
 if(left){
 
 		image_xscale = -1
-
 	sprite_index = spr_dudeWalkCycle
 }else if(right){
 

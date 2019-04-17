@@ -96,7 +96,7 @@ switch(room){
 		
 			init = false;
 		}
-		if(obj_player.x >= 700){
+		if(obj_player.x >= 1117){
 				has_coffee = true
 		}
 		if(obj_player.x == 0 && has_coffee = true){
