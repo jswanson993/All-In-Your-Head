@@ -31,6 +31,14 @@
     },
     "resources": [
         {
+            "Key": "02248ee0-73df-41f2-98fe-061e87317050",
+            "Value": {
+                "id": "be8a29f2-57c5-4c65-af11-9446fd490aa0",
+                "resourcePath": "sprites\\meeting_dudeHand\\meeting_dudeHand.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "02a93034-8f6e-4718-a90d-ef3a3edfc5ae",
             "Value": {
                 "id": "86e05fd8-b982-4020-83ae-c4a942c72c15",
