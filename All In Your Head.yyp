@@ -799,6 +799,14 @@
             }
         },
         {
+            "Key": "ac8ba6e1-b7d2-4417-afa3-4a8a20c1e853",
+            "Value": {
+                "id": "976973b3-bbf6-4414-a5ff-375426d0455d",
+                "resourcePath": "sprites\\spr_dudeWalk_shirtless\\spr_dudeWalk_shirtless.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "b19b4ca8-f518-42ef-ab2d-bf4b4ea78aac",
             "Value": {
                 "id": "bf698d7c-8343-48a8-955d-b044e3047390",
