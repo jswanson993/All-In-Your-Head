@@ -21,3 +21,4 @@ if(keyboard_check_released(vk_enter)){
 	}
 	event_user(0)
 }
+

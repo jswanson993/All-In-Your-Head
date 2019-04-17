@@ -89,4 +89,4 @@ roomNo = 1
 obj_game_manager.roomDialogue = dialogue;
 obj_game_manager.playerResp = userResp;
 obj_game_manager.responseLines = rl
-instance_create_layer(608, 28, "Instances", obj_speech_bubble)
+instance_create_layer(608, 70, "Instances", obj_speech_bubble)

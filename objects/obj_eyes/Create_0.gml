@@ -2,5 +2,5 @@
 // You can write your code in this editor
 startingX = x
 startingY = y
-followDist = 15
+followDist = 20
 spd = 1

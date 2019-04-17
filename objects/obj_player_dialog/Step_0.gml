@@ -7,7 +7,7 @@ if(keyboard_check_released(vk_down) || keyboard_check(ord("S"))){
 	}
 }
 
-if(keyboard_check_released(vk_up) || keyboard_check_released("W")){
+if(keyboard_check_released(vk_up) || keyboard_check_released(ord("W"))){
 	if(line > 0){
 		line--;	
 		//selectedText = responses[res, line]
@@ -17,6 +17,9 @@ if(keyboard_check_released(vk_up) || keyboard_check_released("W")){
 selectedText = responses[res,line]
 
 if(keyboard_check_released(vk_enter)){
+	for(i = 0; i < 100; i++){
+			
+	}
 	obj_speech_bubble.respNo++;
 	line = 0;
 	instance_destroy();

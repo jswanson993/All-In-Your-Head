@@ -42,7 +42,7 @@ roomNo = 1
 obj_game_manager.roomDialogue = dialogue;
 obj_game_manager.playerResp = userResp;
 obj_game_manager.responseLines = rl
-b = instance_create_layer(608, 192, "Instances", obj_speech_bubble)
+b = instance_create_layer(650, 250, "Instances", obj_speech_bubble)
 with(b){
 	image_yscale = -1	
 }

@@ -9,11 +9,11 @@ switch(room){
 		break	
 	case(Room3):
 		if(!alarm0Set)
-			alarm[0] = room_speed * 30
+			alarm[0] = room_speed * 1
 		alarm0Set = true
-		if(!alarm1Set)
-			alarm[1] = room_speed * 3
-		alarm1Set = true
+		//if(!alarm1Set)
+		//	alarm[1] = room_speed * 3
+		//alarm1Set = true
 		break
 		
 	case(Room6):
@@ -30,10 +30,10 @@ switch(room){
 		break;
 		
 	case(Room8):
-		//if(nextRoom = true){
-		//	room_goto_next();
-		//	nextRoom = false;
-		//}
+		if(nextRoom = true){
+			room_goto_next();
+			nextRoom = false;
+		}
 		break;
 		
 	case(Room9):
@@ -108,9 +108,48 @@ switch(room){
 		
 			init = false;
 		}
+		if(obj_player.x >= 700){
+				has_coffee = true
+		}
+		if(obj_player.x == 0 && has_coffee = true){
+			init = true
+			room_goto_next();
+		}
+		break;
+		
+		case(Room10):
+		
+		if(init = true){
+			bubble = instance_create_layer(650, 250, "Instances", obj_speech_bubble)
+			init = false
+		}
+		if (speakers[obj_speech_bubble.ind] == "Boss"){
+			bubble.x = 500
+			bubble.y = 90
+			image_xscale = -1
+		}else if (speakers[obj_speech_bubble.ind] == "Alice"){
+			bubble.x = 600
+			bubble.y = 90
+			image_xscale = 1
+		}else if (speakers[obj_speech_bubble.ind] == "Traci"){
+			bubble.x = 450
+			bubble.y = 160
+			image_xscale = 1
+		}else if (speakers[obj_speech_bubble.ind] == "Other"){
+			bubble.x = 200
+			bubble.y = 130
+			image_xscale = 1
+		}else if(speakers[obj_speech_bubble.ind] == "end"){
+			room_goto_next()	
+		}
 		if(nextRoom = true){
 			room_goto_next();
 			nextRoom = false;
 		}
 		break;
+		
+		case(Room11):
+		if(keyboard_check_released(vk_enter)){
+			game_end()		
+		}
 }

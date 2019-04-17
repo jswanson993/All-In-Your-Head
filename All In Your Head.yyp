@@ -87,6 +87,14 @@
             }
         },
         {
+            "Key": "11814867-d68e-4201-837e-24bd201b2b5e",
+            "Value": {
+                "id": "4ed56388-05c8-42bb-8527-67bd2b03a6a7",
+                "resourcePath": "rooms\\Room10\\Room10.yy",
+                "resourceType": "GMRoom"
+            }
+        },
+        {
             "Key": "1182862b-7005-4225-b949-bbe837442bc9",
             "Value": {
                 "id": "738dae60-e039-4c0e-a8a7-8adac9d88b3a",
@@ -727,14 +735,6 @@
             }
         },
         {
-            "Key": "aa72c0ef-58a2-48e7-af99-be7031e8c308",
-            "Value": {
-                "id": "3022cec3-44d1-4e87-9337-612543067260",
-                "resourcePath": "rooms\\room0\\room0.yy",
-                "resourceType": "GMRoom"
-            }
-        },
-        {
             "Key": "abdbdd7d-27fb-4917-9f5f-2ee8fb0b5975",
             "Value": {
                 "id": "0f71ea8e-00c7-410d-89c5-009a66f6bf11",
@@ -828,6 +828,14 @@
                 "id": "e462acd7-311e-4dd2-a59d-39104b7c649a",
                 "resourcePath": "options\\windows\\options_windows.yy",
                 "resourceType": "GMWindowsOptions"
+            }
+        },
+        {
+            "Key": "ccb7e300-d5a9-49bf-b4b9-947073bd6437",
+            "Value": {
+                "id": "877b0fc8-3ef4-4a83-8c9d-d371c54be79d",
+                "resourcePath": "rooms\\Room11\\Room11.yy",
+                "resourceType": "GMRoom"
             }
         },
         {
