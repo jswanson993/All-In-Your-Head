@@ -38,73 +38,61 @@ switch(room){
 		
 	case(Room9):
 		if(init == true){
-		instg1 = instance_create_layer(185, 206, "Instances", obj_girl)
-		
-		with(instg1){
-		//show_debug_message(speech)
-		sprite_index = spr_pink_suit
-		image_speed = 0;
-		image_index = 0;
-		speech = "...its not like he'd\n ever ask for directions\n anyways..."
-
-		}
 
 
-		instg2 = instance_create_layer(300, 206, "Girls", obj_girl)
+		instg2 = instance_create_layer(254, 274, "Girls", obj_girl)
 		with(instg2){
-			sprite_index = spr_pink_suit
-			image_speed = 0;
-			image_index = 1;
+
 			speech = "Did you see that nose ring\n on the first day?\n What guy pierces his nose?"
+			x_loc = 120
+			y_loc = 135
+			x_flip = -1
 		}
 
-		instg3 = instance_create_layer(450, 206, "Girls", obj_girl)
+		instg3 = instance_create_layer(455, 256, "Girls", obj_girl)
 		with(instg3){
-			sprite_index = spr_pink_suit
-			image_speed = 0;
-			image_index = 2;
+
+
 			speech = "Must be gay"
+			x_loc = 607
+			y_loc = 98
+			x_flip = 1
 		}
 		
-		instg4 = instance_create_layer(600, 206, "Girls", obj_girl)
+		instg4 = instance_create_layer(549, 198, "Girls", obj_girl)
 		with(instg4){
-			sprite_index = spr_pink_suit
-			image_speed = 0;
-			image_index = 2;
+			x_loc = 378
+			y_loc = 95
+			x_flip = -1
 			speech = "Do you think he has a girlfriend?"
 		}
 		
-		instg5 = instance_create_layer(650, 206, "Girls", obj_girl)
+		instg5 = instance_create_layer(659, 186, "Girls", obj_girl)
 		with(instg5){
-			sprite_index = spr_pink_suit
-			image_speed = 0;
-			image_index = 2;
-			speech = "Does it matter? No ring, no problem."
+			x_loc = 793
+			y_loc = 126
+			x_flip = 1
+			speech = "Does it matter? No ring,\n no problem."
 		}
 		
-		instg6 = instance_create_layer(750, 206, "Girls", obj_girl)
+		instg6 = instance_create_layer(820, 176, "Girls", obj_girl)
 		with(instg6){
-			sprite_index = spr_pink_suit
-			image_speed = 0;
-			image_index = 2;
-			speech = "Does it matter? No ring, no problem."
+			x_loc = 640
+			y_loc = 93
+			x_flip = -1
+			y_flip = 1
+			speech = "All I’m saying is, a man in a\n uniform has a better chance."
 		}
 		
-		instg7 = instance_create_layer(850, 206, "Girls", obj_girl)
+		instg7 = instance_create_layer(958, 176, "Girls", obj_girl)
 		with(instg7){
-			sprite_index = spr_pink_suit
-			image_speed = 0;
-			image_index = 2;
-			speech = "All I’m saying is, a man in a uniform has a better chance."
+			x_loc = 1070
+			y_loc = 153
+			y_flip = -1
+			x_flip = 1
+			speech = "No way! Take the uniform off\n and you’ll see what I mean."
 		}
 		
-		instg8 = instance_create_layer(850, 206, "Girls", obj_girl)
-		with(instg8){
-			sprite_index = spr_pink_suit
-			image_speed = 0;
-			image_index = 2;
-			speech = "All I’m saying is, a man in a uniform has a better chance."
-		}
 		
 			init = false;
 		}

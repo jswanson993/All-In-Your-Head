@@ -831,6 +831,14 @@
             }
         },
         {
+            "Key": "b9a69ea8-171f-46a9-89ec-ba652b891092",
+            "Value": {
+                "id": "e9a8af21-5b59-4c1e-a3dc-3fbfc936403b",
+                "resourcePath": "sprites\\spr_breakroom_long\\spr_breakroom_long.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "b9cbb4b9-a8d5-4e76-81c3-e5f406dea0f3",
             "Value": {
                 "id": "f20073e7-10be-4c89-8e33-d11822303399",

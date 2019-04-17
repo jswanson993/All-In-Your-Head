@@ -25,7 +25,7 @@
             "inheritSubLayers": false,
             "inheritVisibility": false,
             "instances": [
-{"name": "inst_6DAD7044","id": "1a18b7bc-d538-4004-aab0-3d8dca681cd2","colour": { "Value": 4294967295 },"creationCodeFile": "","creationCodeType": "","ignore": false,"inheritCode": false,"inheritItemSettings": false,"IsDnD": false,"m_originalParentID": "00000000-0000-0000-0000-000000000000","m_serialiseFrozen": false,"modelName": "GMRInstance","name_with_no_file_rename": "inst_6DAD7044","objId": "e64de8a8-4e56-4893-a2fe-e0479a2ad5c4","properties": null,"rotation": 0,"scaleX": 1,"scaleY": 1,"mvc": "1.0","x": 64,"y": 256}
+{"name": "inst_6DAD7044","id": "1a18b7bc-d538-4004-aab0-3d8dca681cd2","colour": { "Value": 4294967295 },"creationCodeFile": "","creationCodeType": "","ignore": false,"inheritCode": false,"inheritItemSettings": false,"IsDnD": false,"m_originalParentID": "00000000-0000-0000-0000-000000000000","m_serialiseFrozen": false,"modelName": "GMRInstance","name_with_no_file_rename": "inst_6DAD7044","objId": "e64de8a8-4e56-4893-a2fe-e0479a2ad5c4","properties": null,"rotation": 0,"scaleX": 1,"scaleY": 1,"mvc": "1.0","x": 64,"y": 288}
             ],
             "layers": [
 
@@ -88,7 +88,7 @@
             "m_serialiseFrozen": false,
             "modelName": "GMRBackgroundLayer",
             "mvc": "1.0",
-            "spriteId": "7ccf5d8b-5e85-4de1-be4d-c5ce6daf6391",
+            "spriteId": "b9a69ea8-171f-46a9-89ec-ba652b891092",
             "stretch": false,
             "userdefined_animFPS": false,
             "userdefined_depth": false,
@@ -118,11 +118,11 @@
         "modelName": "GMRoomSettings",
         "persistent": false,
         "mvc": "1.0",
-        "Width": 800
+        "Width": 1199
     },
     "mvc": "1.0",
     "views": [
-{"id": "b87d47e7-4473-4a47-9fbc-dc5d25ec530e","hborder": 32,"hport": 768,"hspeed": -1,"hview": 768,"inherit": false,"modelName": "GMRView","objId": "00000000-0000-0000-0000-000000000000","mvc": "1.0","vborder": 32,"visible": false,"vspeed": -1,"wport": 1024,"wview": 1024,"xport": 0,"xview": 0,"yport": 0,"yview": 0},
+{"id": "b87d47e7-4473-4a47-9fbc-dc5d25ec530e","hborder": 32,"hport": 500,"hspeed": -1,"hview": 500,"inherit": false,"modelName": "GMRView","objId": "00000000-0000-0000-0000-000000000000","mvc": "1.0","vborder": 32,"visible": true,"vspeed": -1,"wport": 800,"wview": 800,"xport": 0,"xview": 0,"yport": 0,"yview": 0},
 {"id": "78ff4426-5cc3-4253-a76a-a002e73959c6","hborder": 32,"hport": 768,"hspeed": -1,"hview": 768,"inherit": false,"modelName": "GMRView","objId": "00000000-0000-0000-0000-000000000000","mvc": "1.0","vborder": 32,"visible": false,"vspeed": -1,"wport": 1024,"wview": 1024,"xport": 0,"xview": 0,"yport": 0,"yview": 0},
 {"id": "1fc228b1-1e90-4ce7-af75-7e3c29a9c057","hborder": 32,"hport": 768,"hspeed": -1,"hview": 768,"inherit": false,"modelName": "GMRView","objId": "00000000-0000-0000-0000-000000000000","mvc": "1.0","vborder": 32,"visible": false,"vspeed": -1,"wport": 1024,"wview": 1024,"xport": 0,"xview": 0,"yport": 0,"yview": 0},
 {"id": "fcfb4582-826f-4df1-9cd7-5ecf5436f45e","hborder": 32,"hport": 768,"hspeed": -1,"hview": 768,"inherit": false,"modelName": "GMRView","objId": "00000000-0000-0000-0000-000000000000","mvc": "1.0","vborder": 32,"visible": false,"vspeed": -1,"wport": 1024,"wview": 1024,"xport": 0,"xview": 0,"yport": 0,"yview": 0},
@@ -134,8 +134,8 @@
     "viewSettings":     {
         "id": "920a15d6-36b2-4749-b8ee-2c5552ff7748",
         "clearDisplayBuffer": true,
-        "clearViewBackground": false,
-        "enableViews": false,
+        "clearViewBackground": true,
+        "enableViews": true,
         "inheritViewSettings": false,
         "modelName": "GMRoomViewSettings",
         "mvc": "1.0"
