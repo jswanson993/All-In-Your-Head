@@ -1,1 +1,1 @@
-draw_text(room_width/2, 50, "You get on the train and you notice some people staring at you creepily")
+view_camera[0] = camera_create_view(0, 40, 800, 500, 0, obj_player, 10, -1, 100,100)
