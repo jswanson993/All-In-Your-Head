@@ -31,6 +31,14 @@
     },
     "resources": [
         {
+            "Key": "012ac0c6-5142-4002-b93e-97189d80d4c8",
+            "Value": {
+                "id": "3dc6d1cf-df53-4fac-a26c-53b1636d883b",
+                "resourcePath": "sprites\\spr_dudeIdle_shirtless\\spr_dudeIdle_shirtless.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "02248ee0-73df-41f2-98fe-061e87317050",
             "Value": {
                 "id": "be8a29f2-57c5-4c65-af11-9446fd490aa0",
