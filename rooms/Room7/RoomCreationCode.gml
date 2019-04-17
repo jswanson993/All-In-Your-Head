@@ -20,7 +20,7 @@ roomNo = 1
 		
 		//line 1
 		ds_list_add(rl, 4)
-		userResp[j, 0]		= "Oh, yeah, sorry I didn’t realize it was an issue.\n I’ll leave it home from now on…";
+		userResp[j, 0]		= "Oh, yeah, sorry I didn’t realize it was an issue.\n I'll leave it home from now on…";
 		
 		//line4
 		i ++;

@@ -14,3 +14,4 @@ init = true;
 has_coffee = false;
 speakers = []
 bubble = -1
+playerName = ""

@@ -12,7 +12,7 @@ roomNo = 1
 		//mySpeaker[i]	= id;
 		//line 2
 		i ++;
-		dialogue[i]		= "_______ is it?";
+		dialogue[i]		= obj_game_manager.playerName + " is it?";
 		
 		//Line 2
 		//i ++;
@@ -84,7 +84,7 @@ roomNo = 1
 		
 		//line 14
 		i++
-		dialogue[i]		= "My assistant Anne is right out front.\n She will give you the details\n and you can start monday morning"
+		dialogue[i]		= "My assistant Anne is right out\n front. She will give you the\n details and you can start\n monday morning"
 
 obj_game_manager.roomDialogue = dialogue;
 obj_game_manager.playerResp = userResp;

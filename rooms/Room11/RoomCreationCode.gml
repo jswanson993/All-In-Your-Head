@@ -7,9 +7,8 @@ var rl = ds_list_create()
 roomNo = 11
 
 ds_list_add(rl, 0)
-userResp[j,0] = "Hey, don’t assume he can’t handle it if we don’t know what he can do."
-userResp[j,1] = "How do you know he can’t animate if you cut him\n off every time he tries to tell you what experience he has in it?"
-userResp[j, 2] = "Alright, no. I can’t handle the engineers and animating.\n New Dude can, and I think we should let him step in."
+userResp[j,0] = "How do you know " + obj_game_manager.playerName +  " can’t animate if you cut him\n off every time he tries to tell you what experience he has in it?"
+userResp[j, 1] = "Dude, could you stop butting in,\n we're trying to have an important meeting here\n just worry about YOUR job okay?"
 
 
 obj_game_manager.playerResp = userResp;

@@ -123,24 +123,74 @@ switch(room){
 			bubble = instance_create_layer(650, 250, "Instances", obj_speech_bubble)
 			init = false
 		}
-		if (speakers[obj_speech_bubble.ind] == "Boss"){
-			bubble.x = 500
-			bubble.y = 90
-			image_xscale = -1
-		}else if (speakers[obj_speech_bubble.ind] == "Alice"){
-			bubble.x = 600
-			bubble.y = 90
-			image_xscale = 1
-		}else if (speakers[obj_speech_bubble.ind] == "Traci"){
-			bubble.x = 450
-			bubble.y = 160
-			image_xscale = 1
-		}else if (speakers[obj_speech_bubble.ind] == "Other"){
-			bubble.x = 200
-			bubble.y = 130
-			image_xscale = 1
-		}else if(speakers[obj_speech_bubble.ind] == "end"){
-			room_goto_next()	
+		switch(speakers[obj_speech_bubble.ind]){
+			case("Boss"):
+				with(bubble){
+					x = 500
+					y = 90
+					image_xscale = -1
+					image_yscale = 1
+				}
+				break
+			case("Alice"):
+				with(bubble){
+					x = 500
+					y = 90
+					image_xscale = 1
+					image_yscale = 1
+				}
+				break
+			case("Traci"):
+			with(bubble){
+					x = 450
+					y = 160
+					image_xscale = 1
+					image_yscale = 1
+				}
+				break
+			case("Other"):
+			with(bubble){
+					x = 200
+					y = 130
+					image_xscale = 1
+					image_yscale = 1
+				}
+				break
+			case("end"):
+				room_goto_next()	
+				break
+			case("Boss_Interupt"):
+			with(bubble){
+					x = 416
+					y = 356
+					image_xscale = -1
+					image_yscale = -1
+				}
+				break
+			case("Alice_Interupt"):
+				with(bubble){
+					x = 416
+					y = 356
+					image_xscale = 1
+					image_yscale = -1
+				}
+				break
+			case("Other_Interupt"):
+				with(bubble){
+					x = 350
+					y = 356
+					image_xscale = -1
+					image_yscale = -1
+				}
+				break
+		}
+		
+		if(bubble.respNo == 0){
+			layer_background_sprite( layer_background_get_id(layer_get_id("Background")), meeting_dudeHand)
+		}else if(bubble.ind == 6){
+			
+		}else{
+			layer_background_sprite( layer_background_get_id(layer_get_id("Background")), meeting_dudePOV)
 		}
 		if(nextRoom = true){
 			room_goto_next();

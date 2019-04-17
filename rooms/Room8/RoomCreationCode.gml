@@ -33,7 +33,7 @@ roomNo = 1
 		//line 2
 		j++;
 		ds_list_add(rl, 5)
-		userResp[j, 0]		= "Nice meeting you. Oh, my name’s-"
+		userResp[j, 0]		= "Nice meeting you. Oh, my name’s " + obj_game_manager.playerName
 		
 		//line 5
 		i++
