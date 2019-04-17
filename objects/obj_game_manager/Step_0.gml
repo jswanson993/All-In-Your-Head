@@ -200,6 +200,6 @@ switch(room){
 		
 		case(Room11):
 		if(keyboard_check_released(vk_enter)){
-			game_end()		
+			room_goto(0)	
 		}
 }

@@ -1,0 +1,1 @@
+instance_create_layer(288,256, "Instances", obj_name_box)
