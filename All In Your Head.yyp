@@ -383,6 +383,14 @@
             }
         },
         {
+            "Key": "47639a4e-2755-4d93-9a6e-7d77eeef906e",
+            "Value": {
+                "id": "25caab8e-276d-4d1b-ab19-c6e3002a1288",
+                "resourcePath": "sprites\\phone_alarm\\phone_alarm.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "48553dec-3608-4873-82cc-430e44886057",
             "Value": {
                 "id": "5d49447d-3818-46d9-a36e-bddffde47b34",
