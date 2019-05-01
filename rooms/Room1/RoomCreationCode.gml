@@ -1,0 +1,1 @@
+obj_room_exit.visible = false;

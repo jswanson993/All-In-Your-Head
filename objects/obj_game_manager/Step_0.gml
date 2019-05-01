@@ -2,9 +2,17 @@
 // You can write your code in this editor
 scr_input()
 switch(room){
+	case(Alarm):
+		if(keyboard_check_released(vk_enter)){
+			room_goto_next();	
+		}
+		break;
 	case(Room1):
-		if(obj_player.x >= room_width - 50){
-			room_goto_next()
+		if(obj_player.haveCloths){
+			obj_room_exit.visible = true;
+			if(obj_player.x >= room_width - 50){
+				room_goto_next()
+			}
 		}
 		break	
 	case(Room3):
@@ -81,7 +89,7 @@ switch(room){
 			y_loc = 93
 			x_flip = -1
 			y_flip = 1
-			speech = "All I’m saying is, a man in a\n uniform has a better chance."
+			speech = "All I'm saying is, a man in a\n uniform has a better chance."
 		}
 		
 		instg7 = instance_create_layer(958, 176, "Girls", obj_girl)
@@ -90,18 +98,51 @@ switch(room){
 			y_loc = 153
 			y_flip = -1
 			x_flip = 1
-			speech = "No way! Take the uniform off\n and you’ll see what I mean."
+			speech = "No way! Take the uniform off\n and you'll see what I mean."
 		}
+		
 		
 		
 			init = false;
 		}
-		if(obj_player.x >= 1117){
-				has_coffee = true
+		coffee_set = false
+		if(has_coffee && !coffee_set){
+		with(instg2){
+			speech = "They gave her that manager spot\n instead of hiring him for it"
 		}
-		if(obj_player.x == 0 && has_coffee = true){
+
+		with(instg3){
+			speech = "He's the new secretary?\n What happened to Jen?"
+		}
+		
+		with(instg4){
+			speech = "I don't know, Kim,\n just not my type"
+		}
+		
+		with(instg5){
+			speech = "Okay, but just watch as he\n walks back to his desk..."
+		}
+		
+		with(instg6){
+			speech = "I think so, not being able to drink\n coffee black is such a dealbreaker"
+		}
+		with(instg7){
+			speech = "Did he just use the Hazelnut Creamer?"
+		}
+		coffee_set = true;
+		}
+		//if(obj_player.x >= 1117){
+	//			has_coffee = true
+	//	}
+		if(has_coffee == true){
+			obj_room_exit.visible = true;
+			if(obj_player.x <= 10){
 			init = true
+			has_coffee = false;
+
+			coffee_set = false;
 			room_goto_next();
+			}
 		}
 		break;
 		
@@ -188,6 +229,6 @@ switch(room){
 		
 		case(Room11):
 		if(keyboard_check_released(vk_enter)){
-			room_goto(0)	
+			game_restart()
 		}
 }

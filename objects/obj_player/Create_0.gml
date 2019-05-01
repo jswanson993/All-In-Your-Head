@@ -7,3 +7,8 @@ down = 0
 x_spd = 7.5
 y_spd = 3.5
 border_buffer = 0
+haveCloths = true
+if(room == Room1){
+	haveCloths = false;
+	sprite_index = spr_dudeIdle_shirtless;
+}
