@@ -2,7 +2,7 @@
 {
     "name": "Main_Menu",
     "id": "03319725-368a-48f4-ae56-1ad72dc3c4c8",
-    "creationCodeFile": "",
+    "creationCodeFile": "RoomCreationCode.gml",
     "inheritCode": false,
     "inheritCreationOrder": false,
     "inheritLayers": false,
@@ -43,7 +43,7 @@
             "id": "2df778c6-05a4-4a29-855a-c23d246e7f66",
             "animationFPS": 15,
             "animationSpeedType": "0",
-            "colour": { "Value": 4294901760 },
+            "colour": { "Value": 4294967295 },
             "depth": 100,
             "grid_x": 32,
             "grid_y": 32,
@@ -62,7 +62,7 @@
             "m_serialiseFrozen": false,
             "modelName": "GMRBackgroundLayer",
             "mvc": "1.0",
-            "spriteId": "00000000-0000-0000-0000-000000000000",
+            "spriteId": "00bfc47c-0a7d-4580-83ad-3586b144062b",
             "stretch": false,
             "userdefined_animFPS": false,
             "userdefined_depth": false,
@@ -87,12 +87,12 @@
     },
     "roomSettings":     {
         "id": "1bb9dc1a-1e59-452b-9580-5582a59064c6",
-        "Height": 500,
+        "Height": 474,
         "inheritRoomSettings": false,
         "modelName": "GMRoomSettings",
         "persistent": false,
         "mvc": "1.0",
-        "Width": 800
+        "Width": 757
     },
     "mvc": "1.0",
     "views": [

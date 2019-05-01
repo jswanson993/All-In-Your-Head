@@ -7,7 +7,8 @@
         "e0cae2da-e3f9-48ed-af65-f55befe07677",
         "5b151aaf-0df3-484e-9570-cac18ad2777f",
         "05e7f4e6-47f5-4bbf-8093-889ac1d0c6d6",
-        "7888a2ab-c202-4177-9de1-004b7eaee123"
+        "7888a2ab-c202-4177-9de1-004b7eaee123",
+        "4606dea1-3d0f-40fe-b14a-1a8659217ca4"
     ],
     "filterType": "GMObject",
     "folderName": "Clothing",
